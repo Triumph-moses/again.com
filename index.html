@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>University Website</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<section class="header">
+	<nav>
+		<a href="index.html"><img src="image/logo.png"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="course.html">COURSE</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+				<li><a href="services.html">SERVICES</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars"  onclick="showMenu()"></i>
+
+	</nav>
+
+	<div class="text-box">
+		<h1>World's Biggest University</h1>
+		<p>Education is the passport to the future, for tomorrow belongs to those who prepare for it today. <br>...the learning process continues until the day you die</p>
+		<a href="#" class="hero-btn">Visit Us Today To Know More</a>
+	</div>
+
+
+</section>
+
+
+<!---course--->
+<section class="course">
+	<h1>coures we offer</h1>
+	<p>Get closer to your ultimate career goal with our 100% online courses. Choose from intermediate or advanced courses. If you enjoy the next-generation experience, you could upgrade to a degree..</p>
+
+	<div class="row">
+		<div class="course-col">
+			<h3>intermediate</h3>
+			<p>Choose intermediate courses if you’re at the start or in the middle of your career. </p>
+		</div>
+		<div class="course-col">
+			<h3>Degree</h3>
+			<p>Choose intermediate courses if you’re more experienced and want to reskill. </p>
+		</div>
+		<div class="course-col">
+			<h3>Post grauaduation</h3>
+			<p>Choose advanced courses if you’re an experienced professional who wants to push further.  </p>
+		</div>
+	</div>
+</section>
+
+<section class="campus">
+	<h1>Our Global Campus</h1>
+	<p>Our approach to graduate study emphasises your ability to work independently, while supported by a world-class academic community.
+	</p>
+	<div class="row">
+		<div class="campus-col">
+			<div class="layer">
+				<h3>LONDON</h3>
+			</div>
+			<img src="image/london.jpg">
+		</div>
+		<div class="campus-col">
+			<div class="layer">
+				<h3>NEW YORK</h3>
+			</div>
+			<img src="image/washh.jpg">
+		</div>
+		<div class="campus-col">
+			<div class="layer">
+				<h3>WASHINGTON</h3>
+			</div>
+			<img src="image/was.jpg">
+		</div>
+	</div>
+</section>
+
+
+
+<section class="facilities">
+	<h1>Our Facilities</h1>
+	<p>We have a wide range of facilities that are open to students, staff, visitors and the local community</p>
+	<div class="row">
+		<div class="facilities-col">
+			<img src="image/library.jpg">
+			<h3>world class library</h3>
+			<p>An important source of knowledge to young minds in schools.It develops the important habit of reading among the students. </p>
+		</div>
+		<div class="facilities-col">
+			<img src="image/play.jpg">
+			<h3>largest play ground</h3>
+			<p>Our play ground Improves flexibility and balance. Development of overall motor skills, Opportunities to learn how to control movement.</p>
+		</div>
+		<div class="facilities-col">
+			<img src="image/food.jpg">
+			<h3>tasty and healthy food</h3>
+			<p>A good diet can even lift your mood and improve performance at school and work.</p>
+		</div>
+		
+	</div>
+</section>
+
+<section class="testimonial">
+	<h1>What our students says</h1>
+	<p>Studying abroad has been an incredible experience, and studying in GILS is even better. The university provides good facilities, great teachers and excellent support.</p>
+	<div class="row">
+		<div class="testimonial-col">
+			<img src="image/boy.jpg">
+			<div>
+				<p>The city is great, the university is very stimulating, open and bright and there are always lots of people around, and the staff here are amazing.</p>
+				<h3> Stefania Rabasco from Italy
+				Chemistry BSc(Hons)</h3>
+				<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+			</div>
+		</div>
+		<div class="testimonial-col">
+			<img src="image/girl.jpg">
+			<div>
+				<p>It's been such a stimulating experience. You get to learn so much about yourself, and have tremendous amounts of knowledge and resources</p>
+				<h3>Olaya Gonzalez from Spain
+				International Event Management MSc</h3>
+				<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="cta">
+	<h1>Enrol for our various courses <br> anywhere from the world</h1>
+	<a href="" class="hero hero-btn">CONTACT US</a>
+</section>
+
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>We take pride in nurturing students’ academic abilities. Our admissions process ensures the establishment of an outstanding student body.</p>
+	<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+	</div>
+	<p>Designed by Moses Triumphant</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>University Website</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<section class="sub-header">
+	<nav>
+		<a href="index.html"><img src="image/logo.png"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="course.html">COURSE</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+				<li><a href="services.html">SERVICES</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars"  onclick="showMenu()"></i>
+
+	</nav>
+
+	<h1>Contact Us</h1>
+
+</section>
+
+<!-------------contact Us content---------->
+
+
+<section class="location">
+	
+</section>
+
+
+<section class="contact-us" >
+	<div class="row">
+		<div class="contact-col">
+			<div>
+				<i class="fa fa-home"></i>
+				<span>
+					<h5>#2005, LA, USA.</h5>
+					<p>Adeba, Ibeju-lekki, Lakowe, Lagos</p>
+				</span>
+			</div>
+			<div>
+				<i class="fa fa-phone"></i>
+				<span>
+					<h5>tuncle689@gmail.com</h5>
+					<p>email your query</p>
+				</span>
+			</div>
+			<div>
+				<i class="fa fa-envelope"></i>
+				<span>
+					<h5>tuncle689@gmail.com</h5>
+					<p>email your query</p>
+				</span>
+			</div>
+		</div>
+		<div class="contact-col">
+			
+			<form action="">
+				<input type="text" placeholder="enter your name" required="">
+				<input type="email" placeholder="enter email address" required="">
+				<input type="text" placeholder="enter your subject" required="">
+				<textarea rows="8" placeholder="message" required=""></textarea>
+				<button type="submit" class="hero-btn red-btn">send message</button>
+			</form>
+
+		</div>
+	</div>
+</section>
+
+
+
+
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>We take pride in nurturing students’ academic abilities. Our admissions process ensures the establishment of an outstanding student body.</p>
+	<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+	</div>
+	<p>Designed by Moses Triumphant</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+
+
+
+</body>
+</html>
